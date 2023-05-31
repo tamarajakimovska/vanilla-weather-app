@@ -1,5 +1,5 @@
 function displayTemperature(response) {
-  console.log(response.data);
+  console.log(response.data.main.temp);
 }
 
 let apiKey = "b66a983444a5fc762f7f21239b661e19";
