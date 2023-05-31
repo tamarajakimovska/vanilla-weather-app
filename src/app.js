@@ -44,7 +44,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "b66a983444a5fc762f7f21239b661e19";
-let city = "New York";
+let city = "Zermatt";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
